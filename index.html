@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!-- saved from url=(0053)file:///C:/Users/dautova.n/Downloads/ureki_guide.html -->
-<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Уреки · Тбилиси · Июль 2026</title>
-<link rel="preconnect" href="https://fonts.googleapis.com/">
-<link href="./index_files/css2" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Mulish:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
   --ink:     #1c1c1a;
@@ -514,11 +514,11 @@ p.note {font-size:13.5px;margin-bottom:10px;color:var(--ink);line-height:1.6}
 
 <nav>
   <div class="nav-inner">
-    <button class="nav-btn active" onclick="show(&#39;plan&#39;,this)">По дням</button>
-    <button class="nav-btn" onclick="show(&#39;places&#39;,this)">Локации</button>
-    <button class="nav-btn" onclick="show(&#39;food&#39;,this)">Где поесть</button>
-    <button class="nav-btn" onclick="show(&#39;excursion&#39;,this)">Экскурсия</button>
-    <button class="nav-btn" onclick="show(&#39;practical&#39;,this)">Важное</button>
+    <button class="nav-btn active" onclick="show('plan',this)">По дням</button>
+    <button class="nav-btn" onclick="show('places',this)">Локации</button>
+    <button class="nav-btn" onclick="show('food',this)">Где поесть</button>
+    <button class="nav-btn" onclick="show('kobuleti',this)">Кобулети</button>
+    <button class="nav-btn" onclick="show('practical',this)">Важное</button>
   </div>
 </nav>
 
@@ -726,56 +726,45 @@ p.note {font-size:13.5px;margin-bottom:10px;color:var(--ink);line-height:1.6}
   <!-- ДЕНЬ 6 -->
   <div class="day-card">
     <div class="day-header" onclick="toggleDay(this)">
-      <div class="day-num-wrap"><div class="day-num amber">6</div><div class="day-num-label">день</div></div>
+      <div class="day-num-wrap"><div class="day-num">6</div><div class="day-num-label">день</div></div>
       <div class="vr"></div>
       <div class="day-info">
-        <div class="day-title">Мартвили + Пещера Прометея</div>
-        <div class="day-date">30 июня, вторник — главный день</div>
-        <div class="day-tags"><span class="tag tag-excur">Экскурсия</span></div>
+        <div class="day-title">Кобулети — другой пляж</div>
+        <div class="day-date">30 июня, вторник</div>
+        <div class="day-tags"><span class="tag tag-beach">Пляж</span></div>
       </div>
       <span class="chev">›</span>
     </div>
     <div class="day-body">
       <div class="tl">
         <div class="tl-row">
-          <div class="tl-time">9:00</div>
-          <div class="tl-spine"><div class="tl-dot amber"></div><div class="tl-line"></div></div>
-          <div class="tl-content"><div class="tl-t">Забирают у отеля в Уреки</div><div class="tl-n">Georgia-tour.org. Пакет «Всё включено»</div></div>
+          <div class="tl-time">Утро</div>
+          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content"><div class="tl-t">Маршрутка Уреки → Кобулети</div><div class="tl-n">1–2 ₾, 15–20 минут. Ловить на трассе или у рынка</div></div>
         </div>
         <div class="tl-row">
-          <div class="tl-time">~11:30</div>
-          <div class="tl-spine"><div class="tl-dot amber"></div><div class="tl-line"></div></div>
-          <div class="tl-content"><div class="tl-t">Мартвильский каньон</div><div class="tl-n">Лодка по бирюзовой воде между скалами, водопады. Вход 40 ₾ + лодка 25 ₾</div></div>
+          <div class="tl-time">По дороге</div>
+          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content"><div class="tl-t">Рынок у автовокзала Кобулети</div><div class="tl-n">Сезонные фрукты, специи, варенья — цены в 2–3 раза ниже чем в магазинах. Хорошо закупиться на вывоз</div></div>
         </div>
         <div class="tl-row">
-          <div class="tl-time">~14:00</div>
-          <div class="tl-spine"><div class="tl-dot amber"></div><div class="tl-line"></div></div>
-          <div class="tl-content"><div class="tl-t">Обед включён в программу</div></div>
+          <div class="tl-time">День</div>
+          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content"><div class="tl-t">Пляж Кобулети — галька, 12 км, почти пустой</div><div class="tl-n">Пологий вход в воду, чистое море. Другая атмосфера — не курортная деревня как Уреки, а полноценный город</div></div>
         </div>
         <div class="tl-row">
-          <div class="tl-time">~15:30</div>
-          <div class="tl-spine"><div class="tl-dot amber"></div><div class="tl-line"></div></div>
-          <div class="tl-content"><div class="tl-t">Пещера Прометея</div><div class="tl-n">17 залов, световое шоу, лодка по подземной реке. +14°C — взять кофту! Вход 40 ₾ + лодка 30 ₾</div></div>
-        </div>
-        <div class="tl-row">
-          <div class="tl-time">~17:00</div>
-          <div class="tl-spine"><div class="tl-dot amber"></div><div class="tl-line"></div></div>
-          <div class="tl-content"><div class="tl-t">Термальные источники + монастырь Салхино</div><div class="tl-n">Дегустация монастырского вина Оджалеши</div></div>
+          <div class="tl-time">Обед</div>
+          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content"><div class="tl-t">Кафе на набережной или улица Руставели</div><div class="tl-n">Ул. Руставели — нетуристическая, цены ниже, еда лучше. Ресторан Sakalmakhe — на воде, грузинская кухня и рыба</div></div>
         </div>
         <div class="tl-row">
           <div class="tl-time">Вечер</div>
-          <div class="tl-spine"><div class="tl-dot amber"></div></div>
-          <div class="tl-content"><div class="tl-t">Возвращение в Уреки</div></div>
+          <div class="tl-spine"><div class="tl-dot"></div></div>
+          <div class="tl-content"><div class="tl-t">Набережная Тамар Мепе и маршрутка обратно</div><div class="tl-n">Набережная с соснами и пальмами — хороша для вечерней прогулки перед отъездом</div></div>
         </div>
       </div>
-      <div class="box-contact">
-        <div class="box-label teal">Организатор</div>
-        <div class="bx-name">Georgia-tour.org</div>
-        <div class="bx-val">+995 599 63 88 42 (Viber / WhatsApp)</div>
-        <div class="bx-sub">Уточнить цену для 4 человек — на сайте указано «от 5 чел»</div>
-      </div>
-      <div class="box-warn"><div class="box-label red">Важно</div>После сильных дождей лодки могут не работать. Уточнять накануне. Каньон закрыт по понедельникам — именно поэтому едем во вторник.</div>
-      <div class="cost-row">Расходы дня: <span class="cost-badge cb-hi">~85$/чел + лодки</span></div>
+      <div class="box-tip"><div class="box-label amber">Совет</div>Пляж Кобулети галечный — в отличие от магнитного песка Уреки. Взять пляжную обувь. Зато народу меньше и вход в воду удобный.</div>
+      <div class="cost-row">Расходы дня: <span class="cost-badge cb-low">~20–40 ₾</span></div>
     </div>
   </div>
 
@@ -1164,45 +1153,52 @@ p.note {font-size:13.5px;margin-bottom:10px;color:var(--ink);line-height:1.6}
   </div>
 </div>
 
-<!-- ========== ЭКСКУРСИЯ ========== -->
-<div id="excursion" class="section">
-  <div class="sec-head"><h2>Экскурсия</h2><p>30 июня, вторник — день 6</p></div>
+<!-- ========== КОБУЛЕТИ ========== -->
+<div id="kobuleti" class="section">
+  <div class="sec-head"><h2>Кобулети</h2><p>30 июня, вторник — день 6</p></div>
 
-  <div class="box-contact">
-    <div class="box-label teal">Организатор</div>
-    <div class="bx-name">Georgia-tour.org</div>
-    <div class="bx-val">+995 599 63 88 42 (Viber / WhatsApp)</div>
-    <div class="bx-sub">Написать: 4 человека, 30 июня, заезд из Уреки, пакет «Всё включено». Уточнить цену для 4 (на сайте — от 5 чел)</div>
-  </div>
+  <div class="box-tip"><div class="box-label amber">Как добраться</div>Маршрутка из Уреки — 1–2 ₾, 15–20 минут. Ловить на трассе или у рынка Уреки. Любая маршрутка в сторону Кобулети/Батуми.</div>
 
-  <h3 class="sub">Программа дня</h3>
+  <h3 class="sub">План дня</h3>
   <ul class="fact-list">
-    <li><div class="fi am"></div>Забирают прямо у отеля в Уреки — ехать никуда не нужно</li>
-    <li><div class="fi am"></div>Мартвильский каньон — лодка по бирюзовой воде между белыми скалами</li>
-    <li><div class="fi am"></div>Обед включён в стоимость</li>
-    <li><div class="fi am"></div>Пещера Прометея — 17 залов, световое шоу, лодка по подземной реке</li>
-    <li><div class="fi am"></div>Термальные источники</li>
-    <li><div class="fi am"></div>Монастырь Салхино + дегустация вина Оджалеши</li>
+    <li><div class="fi"></div>Рынок у автовокзала — фрукты, специи, варенья в 2–3 раза дешевле чем в магазинах</li>
+    <li><div class="fi"></div>Пляж 12 км — галечный, просторный, почти без толпы. Пологий вход в воду</li>
+    <li><div class="fi"></div>Набережная Тамар Мепе — сосны, пальмы, кафе вдоль всей длины</li>
+    <li><div class="fi"></div>Улица Руставели — нетуристическая, цены ниже, еда лучше</li>
+    <li><div class="fi am"></div>Маршрутка обратно в Уреки — 1–2 ₾</li>
   </ul>
 
-  <h3 class="sub">Что доплачивается на месте</h3>
+  <h3 class="sub">Где поесть</h3>
+  <div class="food-block">
+    <div class="food-item">
+      <div class="food-name">Ресторан Sakalmakhe<span class="food-star">вид на воду</span></div>
+      <div class="food-desc">Ул. Лео Киачели, 8. На воде, грузинская кухня, рыбные блюда. Обед на двоих ~50–70 ₾</div>
+    </div>
+    <div class="food-item">
+      <div class="food-name">Кафе на ул. Руставели</div>
+      <div class="food-desc">Нетуристическая улица — цены ниже, местные едят здесь. Хинкали ~1–1,5 ₾/шт</div>
+    </div>
+    <div class="food-item">
+      <div class="food-name">Форелевая ферма Коброни<span class="food-star">опыт</span></div>
+      <div class="food-desc">Деревня Кохи, 15 км от Кобулети. Форель запечённая с орехами в дровяной печи. ~25 ₾/чел. Нужно такси</div>
+    </div>
+  </div>
+
+  <h3 class="sub">Кобулети vs Уреки</h3>
   <div class="info-grid">
-    <div class="info-block"><div class="ib-label">Мартвили вход</div><div class="ib-val">40 ₾/чел</div></div>
-    <div class="info-block"><div class="ib-label">Мартвили лодка</div><div class="ib-val">25 ₾/чел</div></div>
-    <div class="info-block"><div class="ib-label">Прометея вход</div><div class="ib-val">40 ₾/чел</div></div>
-    <div class="info-block"><div class="ib-label">Прометея лодка</div><div class="ib-val">30 ₾/чел</div></div>
+    <div class="info-block">
+      <div class="ib-label">Уреки</div>
+      <div class="ib-val">Чёрный песок</div>
+      <div class="ib-sub">Магнетит, лечебный, тёплое море</div>
+    </div>
+    <div class="info-block">
+      <div class="ib-label">Кобулети</div>
+      <div class="ib-val">Галька</div>
+      <div class="ib-sub">12 км, просторно, город с инфраструктурой</div>
+    </div>
   </div>
 
-  <div class="box-warn"><div class="box-label red">Чего не делать</div>Не ехать общественным транспортом — очень сложно с пересадками.<br>Не планировать на понедельник — каньон закрыт.<br>После сильных дождей — уточнять работают ли лодки накануне.</div>
-
-  <h3 class="sub">Взять с собой</h3>
-  <ul class="fact-list">
-    <li><div class="fi"></div>Лёгкая кофта — в пещере +14°C</li>
-    <li><div class="fi"></div>Купальники и полотенца — летом заезжают на пляж по дороге обратно</li>
-    <li><div class="fi"></div>Удобная закрытая обувь</li>
-    <li><div class="fi"></div>Вода и лёгкий перекус</li>
-    <li><div class="fi am"></div>Наличные лари для лодок и мелких расходов</li>
-  </ul>
+  <div class="box-warn"><div class="box-label red">Взять с собой</div>Пляжную обувь — галька острее чем кажется. Наличные для рынка.</div>
 </div>
 
 <!-- ========== ПРАКТИЧЕСКОЕ ========== -->
@@ -1284,6 +1280,5 @@ function toggleLoc(hdr) {
   hdr.closest('.loc-card').classList.toggle('open');
 }
 </script>
-
-
-</body></html>
+</body>
+</html>
